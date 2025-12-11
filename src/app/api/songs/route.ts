@@ -18,7 +18,7 @@ export async function POST(req: NextRequest) {
       data: {
         title: body.title,
         artist: body.artist,
-        songKey: body.key || null,
+        key: body.key || null,
         tags: body.tags || null,
         lyricsText: body.lyricsText || null,
         lyricsUrl: body.lyricsUrl || null,
